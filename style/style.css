@@ -1,0 +1,350 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Galileo';
+    src: url('../assets/fonts/Lazydog.otf');
+
+}
+
+
+#contenedor-body {
+    width: 1000px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0 auto;
+}
+
+/* HEADER */
+#contenedor_header {
+    width: 1000px;
+    height: 200px;
+}
+
+header h1{
+    float: left;
+}
+nav ul {
+    width: 500px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    float: right;
+}
+nav ul li{
+    list-style-type: none;
+    width: 120px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+nav ul li a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    color: #9f4c28;
+}
+nav ul li a:hover{
+    text-decoration: overline;
+    color: #f2865e;
+}
+nav ul li a:active{
+    text-decoration: overline;
+    color: #f2865e;
+}
+/* MAIN */
+main {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#banner_ppal {
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    background-image: url(../assets/img/fondo_banner_ppal.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+main #banner_ppal #banner_texto {
+    width: 300px;
+    padding: 35px;
+    font-family: "Galileo";
+}
+
+main #banner_ppal #banner_texto p{
+    text-align: left;
+    color: #fff;
+    font-size: 30px;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+main #banner_ppal #banner_texto h2 {
+    text-align: left;
+    color: #fff;
+    font-size: 35px;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+main #banner_ppal #banner_texto mark {
+    background-color: #efaf8d;
+    color: #fff;
+}
+
+main #banner_ppal #banner_texto #banner_boton {
+    width: 250px;
+    margin-top: 40px;
+}
+main #banner_ppal #banner_texto #banner_boton a {
+    text-decoration: none;
+}
+main #banner_ppal #banner_texto #banner_boton h3 {
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    border: 2px solid #efaf8d;
+    border-radius: 6px;
+    color: #efaf8d;
+    font-family: "Galileo";
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+main #banner_ppal #banner_texto #banner_boton h3:hover {
+    background-color: #efaf8d95;
+}
+
+/* .section_main {
+    width: 1000px;
+} */
+
+#section_1 {
+    height: 150px;
+    text-align: center;
+    margin: 50px 0px;
+}
+
+#section_1 section .caracteristicas{
+    padding: 30px;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+#section_1 section .caracteristicas img {
+    width: 40px;
+    margin-bottom: 20px;
+}
+
+
+
+#section_2 {
+    width: 960px;
+    height:400px;
+    margin: 0 auto;
+    /* background-color: #f2865e; */
+    padding: 20px;
+}
+
+#section_2 h2 {
+    font-family: "Galileo";
+    color: #9f4c28;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.producto-galeria {
+    margin: 5px;
+    float: left;
+    width: 180px;
+    height: 330px;
+  }
+  
+  .producto-galeria:hover {
+    border: 1px solid #9f4c28;
+    border-radius: 5px;
+  }
+  
+.producto-galeria img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .desc h3 {
+    font-size: 14px;
+    color: #9f4c28;
+    margin-bottom: 5px;
+  }
+
+  .desc p {
+    font-size: 14px;
+    color: #9f4c28;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  .desc a {
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+ 
+  p.boton-tienda {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 2px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    color: black;
+  } 
+  
+  .boton-tienda img {
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+  }
+
+  .boton-tienda:hover {
+    background-color: #9f4c28;
+    color: white;
+    border: 0px;
+  }
+
+/* BANNER 2 */
+#contenedor_banner_promo {
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    background-image: url(../assets/img/banner-2.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+
+}
+main #contenedor_banner_promo #banner_promo {
+    width: 400px;
+    padding: 40px;
+}
+
+main #contenedor_banner_promo #banner_promo p {
+    text-align: left;
+    color: #9f4c28;
+    font-size: 50px;
+    font-family: "Galileo";
+}
+
+main #contenedor_banner_promo #banner_promo p span {
+    color: #d48426;
+    font-size: 75px;
+}
+
+/* ARTICULOS */
+#section_3 {
+    width: 1000px;
+    height: 450px;
+    margin: 0 auto;
+}
+
+.blog-articulo {
+    height: 150px;
+    padding: 20px;
+    border: 1px solid #a4a283a4;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.contenedor-texto-articulo {
+    width: 700px;
+    float: left;
+    margin-left: 20px;
+}
+.blog-articulo h2{
+    font-size: 25px;
+    font-family: "Galileo";
+    color: #726f60;
+}
+
+.blog-articulo p{
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+
+.blog-articulo a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #726f60;
+}
+.contenedor-imagen-articulo img {
+    height: 140px;
+    float: right;
+}
+/* FOOTER */
+footer {
+    width: 1000px;
+    color: #d48426;
+    margin: 0 auto;
+    clear: both;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+
+/* CONTACTO */
+#contenedor-contacto {
+    width: 1000px;
+    padding: 20px;
+    height: 500px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#contenedor-texto-contacto {
+    float: left;
+    width: 400px;
+}
+#contenedor-texto-contacto h2 {
+    font-family: "Galileo";
+    font-size: 40px;
+    color: #efaf8d ;
+    margin: 20px;
+}
+
+#contenedor-texto-contacto address{
+    color: #9f4c28 ;
+    margin: 20px 0px 20px 20px;
+}
+
+#contenedor-texto-contacto address a {
+    text-decoration: none;
+    color: #9f4c28 ;
+}
+
+#contenedor-texto-contacto address a:hover {
+    text-decoration: underline;
+    color: #9f4c28 ;
+}
+
+#contenedor-redes img {
+    width: 30px;
+    margin: 10px;
+}
+
+#contenedor-mapa {
+    width: 450px;
+    float: right;
+}
+#contenedor-mapa iframe {
+    width:450px;
+    height: 500px;
+}
